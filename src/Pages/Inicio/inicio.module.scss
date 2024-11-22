@@ -1,0 +1,13 @@
+.banner {
+  background-image: url("../../assets/banner.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 88vh;
+  color: white;
+  h2 {
+    border: solid 1px red;
+    width: 15vw;
+    display: flex;
+    text-align: start;
+  }
+}
