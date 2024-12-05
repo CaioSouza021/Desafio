@@ -6,7 +6,7 @@
 
 .container {
   width: 60vw;
-
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,4 +48,102 @@ input:nth-child(6) {
   padding-left: 0;
   color: white;
   font-size: 17px;
+}
+
+//inicio do Responsivo
+@media (max-width: 1170px) {
+  form {
+    width: 40vw;
+    img {
+      height: 6.1vh;
+    }
+    h3 {
+      font-size: 2.2vh;
+    }
+  }
+  .container {
+    input {
+      width: 34vw;
+    }
+  }
+  input {
+    &::placeholder {
+      width: 25vw;
+    }
+  }
+  input:nth-child(6) {
+    width: 20vw;
+    font-size: 2vh;
+  }
+}
+@media (max-width: 760px) {
+  .container {
+    h2 {
+      width: 60vw;
+      font-size: 1.9vh;
+    }
+  }
+  form {
+    img {
+      height: 5.6vh;
+    }
+    h3 {
+      font-size: 2vh;
+    }
+  }
+  form {
+    width: 60vw;
+    height: 55vh;
+  }
+  .container {
+    input {
+      width: 42vw;
+    }
+  }
+  input {
+    &::placeholder {
+      width: 31vw;
+    }
+  }
+  input:nth-child(6) {
+    border: solid 2px yellow;
+    width: 25vw;
+    height: 5vh;
+    font-size: 1.6vh;
+  }
+}
+@media (max-width: 501px) {
+  .container {
+    h2 {
+      width: 85vw;
+      font-size: 1.7vh;
+    }
+  }
+  form {
+    width: 75vw;
+    height: 52vh;
+  }
+  form {
+    img {
+      height: 5vh;
+    }
+    h3 {
+      font-size: 1.7vh;
+    }
+  }
+  .container {
+    input {
+      width: 55vw;
+    }
+  }
+  input {
+    &::placeholder {
+      width: 45vw;
+    }
+  }
+  input:nth-child(6) {
+    width: 30vw;
+    height: 4.5vh;
+    font-size: 1.7vh;
+  }
 }

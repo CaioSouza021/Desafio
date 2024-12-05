@@ -22,7 +22,7 @@ header {
     justify-content: space-between;
     a {
       color: white;
-      font-size: 20px;
+      font-size: 17px;
     }
   }
 }
@@ -51,9 +51,9 @@ header {
 //inicio do responsivo
 @media (max-width: 1054px) {
   .boxLogo {
-    width: 23vw;
+    width: 24vw;
     h1 {
-      font-size: 19px;
+      font-size: 18px;
     }
   }
   .Logo {
@@ -63,7 +63,7 @@ header {
     ul {
       height: 5vh;
       a {
-        font-size: 17px;
+        font-size: 15px;
       }
     }
   }
@@ -80,7 +80,7 @@ header {
   .boxLogo {
     width: 22vw;
     h1 {
-      font-size: 16px;
+      font-size: 15px;
     }
   }
   .Logo {
@@ -108,16 +108,16 @@ header {
   .boxLogo {
     width: 24vw;
     h1 {
-      font-size: 16px;
+      font-size: 15px;
     }
   }
   .Logo {
-    height: 4.5vh;
+    height: 5vh;
   }
   .boxMenu {
     ul {
       a {
-        font-size: 13.4px;
+        font-size: 13px;
       }
     }
   }
