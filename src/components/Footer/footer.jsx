@@ -12,19 +12,19 @@ export default function footer() {
         <h3>4002-0922</h3>
         <nav>
           <a href="">
-            <img src={face} alt="" />{" "}
+            <img className={S.Social} src={face} alt="" />{" "}
           </a>
           <a href="">
-            <img src={twitter} alt="" />{" "}
+            <img className={S.Social} src={twitter} alt="" />{" "}
           </a>
           <a href="">
-            <img src={youtube} alt="" />{" "}
+            <img className={S.Social} src={youtube} alt="" />{" "}
           </a>
           <a href="">
-            <img src={linkedin} alt="" />{" "}
+            <img className={S.Social} src={linkedin} alt="" />{" "}
           </a>
           <a href="">
-            <img src={insta} alt="" />
+            <img className={S.Social} src={insta} alt="" />
           </a>
         </nav>
       </section>

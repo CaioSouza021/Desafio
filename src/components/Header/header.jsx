@@ -11,7 +11,7 @@ export default function header() {
     <BrowserRouter>
       <header className={S.header1}>
         <section className={S.boxLogo}>
-          <img src={Logo} alt="" />
+          <img className={S.Logo} src={Logo} alt="" />
           <h1 className={S.titulo}>Livros Vai na Web</h1>
         </section>
         <nav className={S.boxMenu}>
@@ -29,8 +29,8 @@ export default function header() {
           </ul>
         </nav>
         <div className={S.boxInput}>
-          <input type="text" placeholder="" />
-          <img src={search} alt="" />
+          <input type="text" placeholder="O que você procura?" />
+          <img className={S.boxBusca} src={search} alt="" />
         </div>
       </header>
       <Routes>

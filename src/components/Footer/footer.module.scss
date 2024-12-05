@@ -26,3 +26,76 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+// Inicio do responsivo
+
+@media (max-width: 1168px) {
+  .boxSocial {
+    nav {
+      width: 30vw;
+    }
+  }
+}
+//Responsivo para Pc
+@media (max-width: 901px) {
+  .boxSocial {
+    h3 {
+      font-size: 1.2vh;
+    }
+
+    nav {
+      width: 40vw;
+    }
+  }
+  .Social {
+    height: 3.4vh;
+  }
+} //Responsivo para NoteBook
+@media (max-width: 760px) {
+  footer {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .boxSocial {
+    flex-direction: column;
+    justify-content: center;
+    h3 {
+      font-size: 1.6vh;
+      margin-bottom: 0.7vh;
+    }
+  }
+  .boxSocial {
+    nav {
+      width: 40vw;
+      margin-top: 0.5vh;
+    }
+  }
+  .boxEnd {
+    p {
+      font-size: 1.8vh;
+      width: 50vw;
+    }
+  }
+} //Responsivo para tablet
+@media (max-width: 501px) {
+  .boxSocial {
+    h3 {
+      font-size: 1.4vh;
+    }
+  }
+  .boxSocial {
+    nav {
+      width: 60vw;
+      margin-top: 0.5vh;
+    }
+  }
+  .Social {
+    height: 3.4vh;
+  }
+  .boxEnd {
+    p {
+      font-size: 1.2vh;
+      width: 50vw;
+    }
+  }
+} //responsivo para celular

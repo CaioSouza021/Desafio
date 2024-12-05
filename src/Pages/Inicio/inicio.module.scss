@@ -1,23 +1,26 @@
 .banner {
   background-image: url("../../assets/banner.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 88vh;
+
+  background-size: cover;
+  height: 80vh;
   display: flex;
   align-items: center;
   h2 {
     color: white;
-    width: 23vw;
-    margin-left: 150px;
-    font-size: 40px;
+    width: 23.5vw;
+    margin-left: 50px;
+    margin-bottom: 10vh;
+    font-size: 35px;
   }
 }
 .devoDoar {
   div {
-    height: 15vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     h2 {
+      margin: 50px;
       font-size: 30px;
       color: #005695;
     }
@@ -39,8 +42,208 @@
     background-color: #0157944d;
     border-radius: 10px;
     p {
+      width: 18vw;
       text-align: center;
-      font-size: 38px;
+      font-size: 28px;
     }
   }
 }
+//inicio do responsivo
+
+@media (max-width: 1587px) {
+  .banner {
+    background-size: cover;
+    background-position: center;
+    h2 {
+      font-size: 27px;
+    }
+  }
+  .boxCard {
+    article {
+      p {
+        font-size: 25px;
+      }
+    }
+  }
+  .boxCard {
+    img {
+      height: 12vh;
+    }
+  }
+}
+
+@media (max-width: 1369px) {
+  .banner {
+    h2 {
+      font-size: 20px;
+      width: 19vw;
+    }
+  }
+  .boxCard {
+    article {
+      height: 60%;
+      p {
+        font-size: 21px;
+      }
+    }
+  }
+  .boxCard {
+    img {
+      height: 11vh;
+    }
+  }
+  .devoDoar {
+    div {
+      h2 {
+        margin: 20px;
+        font-size: 3vh;
+      }
+    }
+  }
+}
+
+@media (max-width: 1153px) {
+  .banner {
+    h2 {
+      font-size: 20px;
+      width: 22.9vw;
+    }
+  }
+  .boxCard {
+    article {
+      height: 51%;
+      p {
+        font-size: 17px;
+      }
+    }
+  }
+  .boxCard {
+    img {
+      height: 10vh;
+    }
+  }
+  .devoDoar {
+    div {
+      h2 {
+        margin: 20px;
+        font-size: 2.9vh;
+      }
+    }
+  }
+}
+@media (max-width: 956px) {
+  .banner {
+    h2 {
+      font-size: 20px;
+      width: 27.6vw;
+    }
+  }
+
+  .boxCard {
+    article {
+      height: 42%;
+      p {
+        font-size: 14.3px;
+      }
+    }
+  }
+  .boxCard {
+    img {
+      height: 8vh;
+    }
+  }
+  .devoDoar {
+    div {
+      h2 {
+        margin: 20px;
+        font-size: 2.9vh;
+      }
+    }
+  }
+}
+@media (max-width: 760px) {
+  .banner {
+    background-size: cover;
+    height: 60vh;
+    justify-content: center;
+
+    h2 {
+      font-size: 23px;
+      width: 38vw;
+      text-align: center;
+    }
+  }
+  .devoDoar {
+    h2 {
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  .boxCard {
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 10vh;
+    height: 75vh;
+    width: 100%;
+    article {
+      height: 22%;
+      width: 40%;
+      p {
+        width: 93%;
+        font-size: 15px;
+      }
+    }
+    img {
+      height: 5.8vh;
+    }
+  }
+} //Responsivo para tablet
+
+@media (max-width: 562px) {
+  .banner {
+    h2 {
+      font-size: 23px;
+      width: 53vw;
+    }
+  }
+} //responsivo para tablet
+@media (max-width: 501px) {
+  .banner {
+    h2 {
+      margin-left: 0;
+      font-size: 21px;
+      width: 80%;
+      text-align: center;
+    }
+  }
+
+  .devoDoar {
+    h2 {
+      font-size: 1.8vh;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  .boxCard {
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 10vh;
+    height: 70vh;
+    width: 100%;
+    article {
+      height: 22%;
+      width: 40%;
+      p {
+        width: 93%;
+        font-size: 12px;
+      }
+    }
+    img {
+      height: 5vh;
+    }
+  }
+} //Responsivo para celular
