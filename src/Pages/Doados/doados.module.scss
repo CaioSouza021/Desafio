@@ -11,13 +11,17 @@
   height: 60vh;
   article {
     border: solid 2px #005695;
-    width: 15vw;
+    width: 19vw;
     height: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 15px;
+
+    img {
+      height: 10vh;
+    }
   }
 }
 
@@ -26,17 +30,45 @@
 @media (max-width: 900px) {
   .boxcard {
     article {
-      width: 25%;
+      width: 27%;
     }
   }
 }
 @media (max-width: 760px) {
+  .boxDoados {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
   .boxcard {
-    justify-content: space-between;
-    flex-direction: column;
-    position: relative;
-    width: 100%;
+    height: 50vh;
+    article {
+      border: solid 2px #005695;
+      width: 100%;
+    }
   }
 }
 @media (max-width: 501px) {
+  .boxDoados {
+    height: 65vh;
+    justify-content: space-around;
+  }
+  .boxcard {
+    article {
+      width: 100%;
+    }
+    img {
+      height: 7vh;
+    }
+    p {
+      font-size: 13px;
+    }
+  }
+  .boxcard {
+    article {
+      h3 {
+        font-size: 18px;
+      }
+    }
+  }
 }
