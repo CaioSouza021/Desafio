@@ -20,10 +20,10 @@ export default function footer() {
           <a href="">
             <img className={S.Social} src={youtube} alt="" />{" "}
           </a>
-          <a href="">
+          <a href="www.linkedin.com/in/caiosouzafp">
             <img className={S.Social} src={linkedin} alt="" />{" "}
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/eo_caiov/profilecard/?igsh=YTJzanI2bXFzdnNr">
             <img className={S.Social} src={insta} alt="" />
           </a>
         </nav>
