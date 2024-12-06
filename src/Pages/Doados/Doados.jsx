@@ -7,7 +7,7 @@ export default function Doados() {
       <h2>Livros Doados</h2>
       <section className={S.boxcard}>
         <article className={S.boxTeste}>
-          <img src={livros} alt="" />
+          <img src={livros} alt="Livro doado O Peotagonista" />
           <h3>O Protagonista</h3>
           <p>Susanne Andrade</p>
           <p>Ficção</p>

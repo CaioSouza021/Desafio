@@ -12,19 +12,19 @@ export default function footer() {
         <h3>4002-0922</h3>
         <nav>
           <a href="">
-            <img className={S.Social} src={face} alt="" />{" "}
+            <img className={S.Social} src={face} alt="imagem do facebook" />{" "}
           </a>
           <a href="">
-            <img className={S.Social} src={twitter} alt="" />{" "}
+            <img className={S.Social} src={twitter} alt="imagem do twitter" />{" "}
           </a>
           <a href="">
-            <img className={S.Social} src={youtube} alt="" />{" "}
+            <img className={S.Social} src={youtube} alt="imagem do youtube" />{" "}
           </a>
-          <a href="www.linkedin.com/in/caiosouzafp">
-            <img className={S.Social} src={linkedin} alt="" />{" "}
+          <a href="https://www.linkedin.com/in/caio-souza-2bb1592b7/">
+            <img className={S.Social} src={linkedin} alt="imagem do linkedin" />{" "}
           </a>
           <a href="https://www.instagram.com/eo_caiov/profilecard/?igsh=YTJzanI2bXFzdnNr">
-            <img className={S.Social} src={insta} alt="" />
+            <img className={S.Social} src={insta} alt="imagem do instagram" />
           </a>
         </nav>
       </section>

@@ -11,7 +11,7 @@ export default function QueroDoar() {
         </h2>
         <form action="">
           <div>
-            <img src={livro} alt="" />
+            <img src={livro} alt="imagem um livro" />
             <h3>Informações do Livro</h3>
           </div>
           <input type="text" placeholder="Título" />
